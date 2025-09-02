@@ -1,0 +1,7 @@
+<script>
+    
+var salario = parseFloat(prompt("Digite o valor do seu salario atual: "));
+var aumento = parseFloat(prompt("digite a porcentagem de aumento referente ao seu salário: "));
+var porcent = salario + (salario * (aumento / 100));
+alert ("Seu salário com aumento de " + aumento + " % é de : " + porcent.toLocaleString('pt-br', {style:"currency" , currency : 'BRL'}));
+</script>
